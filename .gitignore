@@ -1,0 +1,17 @@
+# Local reference materials (keep the guide only)
+reference/*
+!reference/README.md
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor settings
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
+~$*
