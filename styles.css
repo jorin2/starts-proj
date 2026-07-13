@@ -257,8 +257,8 @@ button { color: inherit; font: inherit; }
 .site-footer { scroll-margin-top: var(--header-height); padding: 76px 0 28px; border-top: 1px solid var(--line); background: var(--ink); }
 .footer-main { display: grid; grid-template-columns: .72fr 1.28fr; gap: clamp(56px,9vw,130px); padding-bottom: 68px; border-bottom: 1px solid var(--line); }
 .footer-organization { display: flex; align-items: flex-start; flex-direction: column; gap: 20px; }
-.footer-organization a { display: inline-flex; padding: 13px 17px; background: #fff; }
-.footer-logo { display: block; width: 154px; height: auto; object-fit: contain; }
+.footer-organization a { display: inline-flex; padding: 13px 17px; background: #000; }
+.footer-logo { display: block; width: 154px; height: auto; object-fit: contain; filter: grayscale(1) brightness(0) invert(1); }
 .footer-organization p { margin: 0; color: var(--muted); font: .65rem Consolas,monospace; letter-spacing: .12em; text-transform: uppercase; }
 .footer-inquiry .section-label { margin-bottom: 18px; }
 .footer-inquiry h2 { margin: 0; color: var(--white); font-size: clamp(2.8rem,5vw,4.8rem); font-weight: 700; letter-spacing: -.035em; line-height: 1.05; }
