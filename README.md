@@ -24,3 +24,11 @@ Files placed in `reference/` stay local and are excluded from the public GitHub 
 `index.html`을 브라우저에서 열면 바로 확인할 수 있습니다. 별도의 설치나 빌드 과정은 필요하지 않습니다.
 
 Open `index.html` in a browser. No installation or build step is required.
+
+## Photo selection
+
+1. 사용할 사진을 `assets/photos/`에 복사합니다.
+2. `assets/photos/photo-config.js`에서 각 영역에 표시할 파일명을 입력합니다.
+3. 파일명이 비어 있거나 사진을 찾을 수 없으면 기존 그래픽이 표시됩니다.
+
+Copy photos into `assets/photos/`, then choose the filenames in `assets/photos/photo-config.js`. The original graphic remains visible when a filename is empty or the image cannot be found.
