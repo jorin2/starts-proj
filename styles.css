@@ -101,7 +101,7 @@ button { color: inherit; font: inherit; }
 }
 .hero-layout { position: relative; z-index: 2; display: grid; grid-template-columns: .95fr 1.05fr; gap: 76px; align-items: center; }
 .hero-copy h1 {
-  max-width: 690px; margin: 0; font-size: clamp(3.6rem, 6.5vw, 6.75rem);
+  max-width: 690px; margin: 0; font-size: clamp(3.6rem, 5.7vw, 6rem);
   font-weight: 850; letter-spacing: -0.082em; line-height: .97; word-break: keep-all;
 }
 .hero-copy h1 em { color: var(--signal); font-style: normal; }
