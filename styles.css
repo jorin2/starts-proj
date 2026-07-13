@@ -73,6 +73,13 @@ button { color: inherit; font: inherit; }
   letter-spacing: -0.07em; line-height: 1.03; word-break: keep-all;
 }
 .section-heading h2 em { color: transparent; font-style: normal; -webkit-text-stroke: 1px rgba(9, 11, 16, 0.58); }
+.space-section .section-heading h2,
+.program-section .section-heading h2,
+.video-heading h2,
+.pipeline-intro h2 {
+  letter-spacing: -0.035em;
+  line-height: 1.14;
+}
 .vision-section .section-heading h2 {
   font-family: Pretendard,"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
   font-weight: 750; letter-spacing: -.055em; line-height: 1.1;
