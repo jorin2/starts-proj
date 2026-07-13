@@ -77,6 +77,7 @@ button { color: inherit; font: inherit; }
 .program-section .section-heading h2,
 .video-heading h2,
 .pipeline-intro h2 {
+  font-weight: 700;
   letter-spacing: -0.035em;
   line-height: 1.14;
 }
@@ -109,7 +110,7 @@ button { color: inherit; font: inherit; }
 .hero-layout { position: relative; z-index: 2; display: grid; grid-template-columns: .95fr 1.05fr; gap: 76px; align-items: center; }
 .hero-copy h1 {
   max-width: 690px; margin: 0; font-size: clamp(3.6rem, 5.7vw, 6rem);
-  font-weight: 850; letter-spacing: -0.082em; line-height: .97; word-break: keep-all;
+  font-weight: 750; letter-spacing: -0.035em; line-height: 1.1; word-break: keep-all;
 }
 .hero-copy h1 em { color: var(--signal); font-style: normal; }
 .hero-description { max-width: 600px; margin: 34px 0 0; color: var(--muted); font-size: 1.04rem; word-break: keep-all; }
@@ -211,7 +212,7 @@ button { color: inherit; font: inherit; }
 
 .video-section { background: var(--ink-soft); }
 .video-layout { display: grid; grid-template-columns: .65fr 1.35fr; gap: clamp(48px,7vw,100px); align-items: center; }
-.video-heading h2 { margin: 0; font-size: clamp(2.65rem,5vw,4.8rem); font-weight: 800; letter-spacing: -.07em; line-height: 1.04; word-break: keep-all; }
+.video-heading h2 { margin: 0; font-size: clamp(2.65rem,5vw,4.8rem); font-weight: 700; letter-spacing: -.035em; line-height: 1.14; word-break: keep-all; }
 .video-heading > p:not(.section-label) { max-width: 440px; margin: 28px 0 0; color: var(--muted); word-break: keep-all; }
 .video-link { display: inline-flex; align-items: center; gap: 24px; margin-top: 34px; padding: 13px 0; border-bottom: 1px solid var(--signal); color: var(--white); font-size: .85rem; font-weight: 750; transition: color 160ms ease, gap 160ms ease; }
 .video-link:hover, .video-link:focus-visible { gap: 30px; color: var(--cyan); }
