@@ -193,6 +193,8 @@ button { color: inherit; font: inherit; }
 .space-copy > p:last-child { margin: 0; color: var(--muted); font-size: .91rem; word-break: keep-all; }
 
 .program-section { background: var(--paper); color: var(--ink); }
+.program-section .section-heading h2 { font-size: clamp(1.85rem, 4.5vw, 4.35rem); }
+.program-title-line { white-space: nowrap; }
 .program-section .heading-split > p { color: var(--muted-dark); }
 .program-group { display: grid; grid-template-columns: 260px 1fr; gap: 50px; padding: 46px 0; border-top: 1px solid var(--line-dark); }
 .program-group:last-child { border-bottom: 1px solid var(--line-dark); }
